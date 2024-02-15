@@ -4,6 +4,7 @@ import './App.css'
 import { Clicker } from './Clicker'
 import { Horloge } from './Horloge'
 import { Chrono } from './Chrono'
+import { ListString } from './ListString'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +16,7 @@ function App() {
       <Clicker />
       <Horloge />
       <Chrono />
+      <ListString />
     </>
   )
 }

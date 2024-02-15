@@ -18,6 +18,7 @@ export function Chrono() {
 
     return (
         <div>
+            <h2>Chrono</h2>
             <p>{date.getSeconds()}</p>
             <button onClick={start}>START</button>
         </div>
